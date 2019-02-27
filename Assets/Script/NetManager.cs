@@ -56,28 +56,28 @@ public class NetManager
 
     void Regist()
     {
-        ClientNetManager.Instance.Regist(typeof(CPlayerReady), 1);
-        ClientNetManager.Instance.Regist(typeof(CChangeTeam), 3);
-        ClientNetManager.Instance.Regist(typeof(CPutShape), 4);
-        ClientNetManager.Instance.Regist(typeof(CUseItem), 5);
-        ClientNetManager.Instance.Regist(typeof(CReqFailure), 6);
-        ClientNetManager.Instance.Regist(typeof(CSetName), 7);
+        ClientNetManager.Instance.Regist(typeof(CPlayerReady));
+        ClientNetManager.Instance.Regist(typeof(CChangeTeam));
+        ClientNetManager.Instance.Regist(typeof(CPutShape));
+        ClientNetManager.Instance.Regist(typeof(CUseItem));
+        ClientNetManager.Instance.Regist(typeof(CReqFailure));
+        ClientNetManager.Instance.Regist(typeof(CSetName));
 
-        ClientNetManager.Instance.Regist(typeof(SEnter), 20);
-        ClientNetManager.Instance.Regist(typeof(SAddPlayer), 21);
-        ClientNetManager.Instance.Regist(typeof(SChangeTeam), 22);
-        ClientNetManager.Instance.Regist(typeof(SPlayerReady), 23);
-        ClientNetManager.Instance.Regist(typeof(SGameReady), 25);
-        ClientNetManager.Instance.Regist(typeof(SGameStart), 26);
-        ClientNetManager.Instance.Regist(typeof(SPutShape), 27);
-        ClientNetManager.Instance.Regist(typeof(SRefreshHoleMap), 28);
-        ClientNetManager.Instance.Regist(typeof(SUseItem), 29);
-        ClientNetManager.Instance.Regist(typeof(SPlayerFailure), 30);
-        ClientNetManager.Instance.Regist(typeof(SPlayerLeave), 31);
-        ClientNetManager.Instance.Regist(typeof(SEatItems), 32);
-        ClientNetManager.Instance.Regist(typeof(SGameOver), 33);
-        ClientNetManager.Instance.Regist(typeof(SUnderAttack), 34);
-        ClientNetManager.Instance.Regist(typeof(SSetName), 35);
+        ClientNetManager.Instance.Regist(typeof(SEnter));
+        ClientNetManager.Instance.Regist(typeof(SAddPlayer));
+        ClientNetManager.Instance.Regist(typeof(SChangeTeam));
+        ClientNetManager.Instance.Regist(typeof(SPlayerReady));
+        ClientNetManager.Instance.Regist(typeof(SGameReady));
+        ClientNetManager.Instance.Regist(typeof(SGameStart));
+        ClientNetManager.Instance.Regist(typeof(SPutShape));
+        ClientNetManager.Instance.Regist(typeof(SRefreshHoleMap));
+        ClientNetManager.Instance.Regist(typeof(SUseItem));
+        ClientNetManager.Instance.Regist(typeof(SPlayerFailure));
+        ClientNetManager.Instance.Regist(typeof(SPlayerLeave));
+        ClientNetManager.Instance.Regist(typeof(SEatItems));
+        ClientNetManager.Instance.Regist(typeof(SGameOver));
+        ClientNetManager.Instance.Regist(typeof(SUnderAttack));
+        ClientNetManager.Instance.Regist(typeof(SSetName));
     }
 
 
