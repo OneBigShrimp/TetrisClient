@@ -1,0 +1,9 @@
+*.suo
+/Library
+/ProjectSettings
+/Temp
+/obj
+/Assets/Plugins
+/Assets/UnitVS
+**/*.meta
+/Assets/TextureForAtlas/*.png
