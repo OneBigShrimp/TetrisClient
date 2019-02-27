@@ -4,6 +4,6 @@
 /Temp
 /obj
 /Assets/Plugins
-/Assets/UnitVS
+/Assets/UnityVS
 **/*.meta
 /Assets/TextureForAtlas/*.png
