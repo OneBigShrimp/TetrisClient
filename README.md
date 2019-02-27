@@ -1,3 +1,6 @@
 # TetrisClient
-首先解压TextureForAtlas.rar到当前文件夹再启动Unity
+1.将TetrisServer仓库中的2个公共项目(TetrisSupport和MyNetManager)编译好的dll复制到Plugins目录下
+2.解压TextureForAtlas.rar到当前文件夹
+3.启动Unity
+
 需要配合TetrisServer使用,支持6人对战
