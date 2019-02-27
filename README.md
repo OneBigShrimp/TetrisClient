@@ -1,0 +1,3 @@
+# TetrisClient
+首先解压TextureForAtlas.rar到当前文件夹再启动Unity
+需要配合TetrisServer使用,支持6人对战
